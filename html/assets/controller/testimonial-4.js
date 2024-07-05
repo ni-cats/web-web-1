@@ -1,1 +1,44 @@
-!function(){var n={979:function(){!function(){const n={init(){new Swiper(".bsb-testimonial-pro-4",{slidesPerGroup:1,pagination:{el:".swiper-pagination",clickable:!0},breakpoints:{768:{slidesPerView:2,spaceBetween:25}}})}};"loading"===document.readyState&&document.addEventListener("DOMContentLoaded",(function(){})),window.addEventListener("load",(function(){n.init()}),!1)}()}},e={};function t(o){var r=e[o];if(void 0!==r)return r.exports;var i=e[o]={exports:{}};return n[o](i,i.exports,t),i.exports}t.n=function(n){var e=n&&n.__esModule?function(){return n.default}:function(){return n};return t.d(e,{a:e}),e},t.d=function(n,e){for(var o in e)t.o(e,o)&&!t.o(n,o)&&Object.defineProperty(n,o,{enumerable:!0,get:e[o]})},t.o=function(n,e){return Object.prototype.hasOwnProperty.call(n,e)},function(){"use strict";t(979)}()}();
+!function () {
+    var n = {
+        979: function () {
+            !function () {
+                const n = {
+                    init() {
+                        new Swiper(".bsb-testimonial-pro-4", {
+                            slidesPerGroup: 1,
+                            pagination: {el: ".swiper-pagination", clickable: !0},
+                            breakpoints: {768: {slidesPerView: 2, spaceBetween: 25}}
+                        })
+                    }
+                };
+                "loading" === document.readyState && document.addEventListener("DOMContentLoaded", (function () {
+                })), window.addEventListener("load", (function () {
+                    n.init()
+                }), !1)
+            }()
+        }
+    }, e = {};
+
+    function t(o) {
+        var r = e[o];
+        if (void 0 !== r) return r.exports;
+        var i = e[o] = {exports: {}};
+        return n[o](i, i.exports, t), i.exports
+    }
+
+    t.n = function (n) {
+        var e = n && n.__esModule ? function () {
+            return n.default
+        } : function () {
+            return n
+        };
+        return t.d(e, {a: e}), e
+    }, t.d = function (n, e) {
+        for (var o in e) t.o(e, o) && !t.o(n, o) && Object.defineProperty(n, o, {enumerable: !0, get: e[o]})
+    }, t.o = function (n, e) {
+        return Object.prototype.hasOwnProperty.call(n, e)
+    }, function () {
+        "use strict";
+        t(979)
+    }()
+}();
